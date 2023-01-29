@@ -1,0 +1,16 @@
+.box
+{
+    
+    background-color: rgb(235, 205, 205);
+    
+}
+.m{
+    margin-left: 1em;
+}
+.text{
+    font-weight: bolder;
+    font-size: larger;
+}
+.size{
+    size: 4em;
+}

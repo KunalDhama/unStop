@@ -1,0 +1,52 @@
+{
+  "seats": [
+    {
+      "id": 1,
+      "empty_seats": 7
+    },
+    {
+      "id": 2,
+      "empty_seats": 7
+    },
+    {
+      "id": 3,
+      "empty_seats": 7
+    },
+    {
+      "id": 4,
+      "empty_seats": 7
+    },
+    {
+      "id": 5,
+      "empty_seats": 7
+    },
+    {
+      "id": 6,
+      "empty_seats": 7
+    },
+    {
+      "id": 7,
+      "empty_seats": 7
+    },
+    {
+      "id": 8,
+      "empty_seats": 7
+    },
+    {
+      "id": 9,
+      "empty_seats": 7
+    },
+    {
+      "id": 10,
+      "empty_seats": 7
+    },
+    {
+      "id": 11,
+      "empty_seats": 7
+    },
+    {
+      "id": 12,
+      "empty_seats": 3
+    }
+  ]
+}

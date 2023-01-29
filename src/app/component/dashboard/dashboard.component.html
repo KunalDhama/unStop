@@ -1,0 +1,60 @@
+
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand ml-4 pl-4" href="#">  IRCTC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About US</a>
+            </li>
+            
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             </form>
+        </div>
+      </nav>
+<!-- navbar end -->
+  
+
+<div class="box">
+  <div class="mt-3 m">
+    <input  class="size" style="width: 10em" type="number"
+    name="total_seat_no"
+    min="1" max="7"  placeholder="Enter your number"  [(ngModel)]="enter_number">
+    <label class="text">Enter number of seats</label>
+    <p>
+        <button id="btn" class="btn btn-primary mt-3"  (click)="saveNewSeat()">Reserve </button>
+    </p>
+  
+
+  </div>
+<!--  -->
+  <h1 style="text-align:center;"> Available Seats</h1>
+<div class="container-fluid mt-2 mb-4 m">
+    <div class="row">
+      <div class="col-md-12">
+             <span *ngFor="let item of availableSeats;let indexOfelement=index;">
+          <div class="box mat-elevation-z2"> 
+               <p> Seat available in row {{indexOfelement+1}} is  {{item}}</p>
+               
+            
+          </div>
+          
+      </span>
+    </div>
+  </div>       
+  </div>
+  
+  
+  </div>
+  
+</div>
